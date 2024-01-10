@@ -8,10 +8,10 @@ spec:
   sources:
     - repoURL: https://github.com/hammoud-abdellah/devops.git
       targetRevision: HEAD
-      path: dev
+      path: yaml-files
     - repoURL: https://github.com/hammoud-abdellah/devops-frontend.git
       targetRevision: HEAD
-      path: dev
+      path: yaml-files
   destination: 
     server: https://kubernetes.default.svc
     namespace: devops
